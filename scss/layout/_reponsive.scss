@@ -1,36 +1,43 @@
-@media only screen and (max-width:640px){
+@media only screen and (max-width:640px) {
   // Header
 
 
   // Hero
-  .hero{
+  .hero {
     flex-direction: column-reverse;
     padding-bottom: 48px;
-    &__text{
+
+    &__text {
       width: 100%;
       gap: 48px;
       margin-top: 48px;
-      .hero__heading{
 
-        &-heading{
+      .hero__heading {
+
+        &-heading {
           font-size: 56px;
         }
       }
-      .hero_detail{
+
+      .hero_detail {
         justify-content: space-between;
-        .detail__content{
+
+        .detail__content {
           margin-right: 0;
         }
       }
     }
-    &__graphic{
+
+    &__graphic {
       flex: 1;
       width: 100%;
-      .app-icon{
+
+      .app-icon {
         max-width: 47%;
         left: 25px;
       }
-      .mobile-app{
+
+      .mobile-app {
         float: right;
         width: 59%;
       }
@@ -38,20 +45,24 @@
   }
 
   // featuredin
-  .featuredin{
-  flex-wrap: wrap;
-  margin-top: 48px;
-  margin-bottom: 12px;
-     &__item{
-       padding-bottom: 36px;
-       &--img{
-         width: 32px;
-         height: 32px;
-       }
-       width: 50%;
-       &:nth-child(5){
-         display: none;
-       }
+  .featuredin {
+    flex-wrap: wrap;
+    margin-top: 48px;
+    margin-bottom: 12px;
+
+    &__item {
+      padding-bottom: 36px;
+
+      &--img {
+        width: 32px;
+        height: 32px;
+      }
+
+      width: 50%;
+
+      &:nth-child(5) {
+        display: none;
+      }
 
       &:nth-child(1),
       &:nth-child(4) {
@@ -59,57 +70,66 @@
           font-size: 25px;
         }
       }
+
       &:nth-child(2),
       &:nth-child(3) {
         span {
           font-size: 30px;
         }
       }
-     }
+    }
   }
 
   // gallery
-  .gallery{
-    .left{
+  .gallery {
+    .left {
       gap: 0;
       width: 100%;
     }
-    .right{
+
+    .right {
       display: none;
     }
   }
 
   // Infomation
-  .information{
+  .information {
     flex-wrap: wrap;
     padding: 0;
-    &__detail:first-child{
+
+    &__detail:first-child {
       margin-right: 0;
     }
+
     &__detail {
       padding-top: 32px;
       padding-bottom: 32px;
       width: 100%;
       padding-left: 26px;
     }
-    .information__detailMB{
+
+    .information__detailMB {
       background-color: #fff;
-      .information__detail--icon,.information__detail--title{
+
+      .information__detail--icon,
+      .information__detail--title {
         color: $text-color-primary
       }
     }
-    
+
   }
 
 
 
   // Footer
-  .footer{
-    &__main{
+  .footer {
+    &__main {
       flex-direction: column;
-      .right{
+
+      .right {
         flex-wrap: wrap;
-        &__item{
+
+        &__item {
           width: 50%;
         }
       }
