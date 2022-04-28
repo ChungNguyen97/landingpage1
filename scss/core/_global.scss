@@ -1,6 +1,7 @@
 @import './variables';
 
 .wrapper{
+  padding: 0 32px;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -32,10 +33,6 @@ body{
     font-weight: 500;
   }
 }
-// .btn.primary-outline {
-//     color: $color-primary;
-//     border: 1px solid;
-//   }
 
 .divider{
   width: 100%;

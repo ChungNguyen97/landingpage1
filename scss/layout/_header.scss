@@ -4,6 +4,9 @@
   align-items: center;
   margin-top: 48px;
   padding-bottom: 160px;
+  i.iconbar{
+    display: none;
+  }
   &__logo {
   }
 
@@ -37,4 +40,8 @@
     background-color: $text-gray;
     border-radius: 100rem;
   }
+}
+
+.header__mobile{
+  display: none;
 }
